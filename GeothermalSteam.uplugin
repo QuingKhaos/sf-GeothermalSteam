@@ -4,7 +4,7 @@
 	"VersionName": "1.0.0",
 	"SemVersion": "1.0.0",
 	"FriendlyName": "Geothermal Steam",
-	"Description": "Extract super heated steam from geysers for usage in steam turbines or fluid miners.",
+	"Description": "Extract Superheated Steam from Geysers for usage in Steam Turbines or Fluid Miners.",
 	"Category": "Modding",
 	"CreatedBy": "QuingKhaos",
 	"CreatedByURL": "https://github.com/QuingKhaos",
@@ -16,6 +16,13 @@
 	"IsExperimentalVersion": false,
 	"Installed": false,
 	"BuiltInInitialFeatureState": "Active",
+	"LocalizationTargets": [
+		{
+			"Name": "GeothermalSteam",
+			"LoadingPolicy": "Always",
+			"ConfigGenerationPolicy": "Never"
+		}
+	],
 	"Modules": [
 		{
 			"Name": "GeothermalSteam",
@@ -25,24 +32,19 @@
 	],
 	"Plugins": [
 		{
-			"Name": "KBFL",
-			"Enabled": true,
-			"SemVersion": "^2026.3.500"
-		},
-		{
 			"Name": "KDataForge",
 			"Enabled": true,
 			"SemVersion": "^2026.3.497"
 		},
 		{
-			"Name": "KhaosLib",
-			"Enabled": true,
-			"SemVersion": "^1.2.2"
-		},
-		{
 			"Name": "SML",
 			"Enabled": true,
 			"SemVersion": "^3.12.0"
+		},
+		{
+			"Name": "SuperHeatedSteam",
+			"Enabled": true,
+			"SemVersion": "^1.0.1"
 		}
 	],
 	"GameVersion": ">=502094"

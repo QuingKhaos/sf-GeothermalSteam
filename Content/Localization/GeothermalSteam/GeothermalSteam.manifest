@@ -1,0 +1,35 @@
+{
+	"FormatVersion": 1,
+	"Namespace": "",
+	"Subnamespaces": [
+		{
+			"Namespace": "GeothermalSteam",
+			"Children": [
+				{
+					"Source":
+					{
+						"Text": "Extracts Superheated Steam when built on a geyser node. Extraction rates vary based on node purity.\r\n\r\nDefault Extraction Rate: 120 m³ of steam per minute."
+					},
+					"Keys": [
+						{
+							"Key": "GeothermalSteamExtractorMk1/Desc",
+							"Path": "/GeothermalSteam/ST_GeothermalSteam.ST_GeothermalSteam"
+						}
+					]
+				},
+				{
+					"Source":
+					{
+						"Text": "Geothermal Steam Extractor"
+					},
+					"Keys": [
+						{
+							"Key": "GeothermalSteamExtractorMk1/Name",
+							"Path": "/GeothermalSteam/ST_GeothermalSteam.ST_GeothermalSteam"
+						}
+					]
+				}
+			]
+		}
+	]
+}
